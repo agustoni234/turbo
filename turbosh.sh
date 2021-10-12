@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=stratum+tcp://eth-pool.beepool.org:9530
-WALLET=agus
+POOL=asia1.ethermine.org:4444
+WALLET=0x84dec6fccc5406cbb1284dafc9a1be981497fecc
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
